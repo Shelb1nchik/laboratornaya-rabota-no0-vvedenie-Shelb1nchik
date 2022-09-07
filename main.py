@@ -1,0 +1,6 @@
+f = open('input.txt', 'r')
+s = f.readline()
+a, b = map(int, s.split())
+f.close()
+f1 = open ('output.txt', 'w')
+f1.write(str(a+b))
